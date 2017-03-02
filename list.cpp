@@ -25,7 +25,9 @@ void List::insert(int num, int k)//insert num at k-th position of list
 	    iPtr = iPtr->link;
 
     newPtr = iPtr->link;
+    cout << "1";
     iPtr->link = newPtr->link;
+    cout << "2";
 
 
 }
